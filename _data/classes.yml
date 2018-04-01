@@ -1,0 +1,27 @@
+- number: 11.011
+  name: The Art and Science of Negotiation
+  lecturer: Bruno Verdini
+  fall: true
+  spring: true
+  group: required
+
+- number: 11.111
+  name: "The Art and Science of Negotiation: Advanced Applications"
+  lecturer: Bruno Verdini
+  fall: false
+  spring: true
+  group: required
+
+- number: 6.006
+  name: Introduction to Algorithms
+  lecturer: Tim Kaler
+  fall: true
+  spring: true
+  group: electives
+
+- number: 14.01
+  name: Principles of Microeconomics
+  lecturer: Staff
+  fall: true
+  spring: true
+  group: electives

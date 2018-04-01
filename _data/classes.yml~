@@ -1,0 +1,6 @@
+- number: 11.011
+  name: The Art and Science of Negotiation
+  lecturer: Bruno Verdini
+  fall: true
+  spring: true
+  group: required

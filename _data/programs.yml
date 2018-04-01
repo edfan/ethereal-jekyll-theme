@@ -1,0 +1,13 @@
+- name: x-terms
+  thumbnail: images/programs/xterms/thumbnail.png
+  full: images/programs/xterms/full.png
+  description: x-terms allows MIT students to intern while taking classes.
+  url: "https://xterms.mit.edu"
+  position: top
+
+- name: Bernard M. Gordon-MIT Engineering Leadership Program
+  thumbnail: images/programs/gelp/thumbnail.jpg
+  full: images/programs/gelp/full.jpg
+  description: The Bernard M. Gordon-MIT Engineering Leadership Program aims to develop next-generation technical leaders with the values, attitudes, and skills necessary to understand and address engineering problems.
+  url: "http://gelp.mit.edu"
+  position: bottom
