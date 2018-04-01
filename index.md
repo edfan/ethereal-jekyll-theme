@@ -4,15 +4,18 @@ title: Concentration in Negotiation and Leadership
 ---
 
 <section class="panel spotlight large left" id="home">
-  <div class="content span-4">
-    <h2>The HASS Concentration in Negotiation and Leadership gives you the skills to succeed in the real world.</h2>
+  <div class="content span-5">
+    <h1>
+      Lead.<br>
+      Persuade.<br>
+      Collaborate.<br>
+    </h1>
   </div>
-  <div class="content span-4">
-    <h1 class="major">News</h1>
-    <p>something something</p>
+  <div class="content span-6">
+    <h2>The HASS Concentration in Negotiation and Leadership emphasizes an <u>interdisciplinary</u> and <u>hands-on</u> approach to pedagogy in order to provide you with opportunities to reflect on and enhance your <u>decision-making</u>, <u>persuasion</u>, and <u>collaboration</u> capabilities.</h2>
   </div>
   
-  <div class="image" data-position="center">
+  <div class="image tinted" data-position="center">
     <img src="images/canyon.jpg" />
   </div>
 </section>

@@ -363,7 +363,6 @@
 		font-weight: 700;
 		line-height: 1.3;
 		margin: 0 0 0.75rem 0;
-		letter-spacing: -0.05em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -897,28 +896,45 @@ n	}
 		border: 0;
 	}
 
-		.image.filtered:after {
-			background-image: url("../../assets/images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
-			background-size: 128px 128px, auto;
-			-moz-pointer-events: none;
-			-webkit-pointer-events: none;
-			-ms-pointer-events: none;
-			pointer-events: none;
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			opacity: 1;
-			z-index: 1;
-		}
-
-		.image.filtered.tinted:after {
-			background-image: url("../../assets/images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25)), linear-gradient(0deg, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.125));
-			background-size: 128px 128px, auto, auto;
-		}
-
+	.image.filtered:after {
+	    background-image: url("../../assets/images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+	    background-size: 128px 128px, auto;
+	    -moz-pointer-events: none;
+	    -webkit-pointer-events: none;
+	    -ms-pointer-events: none;
+	    pointer-events: none;
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    opacity: 1;
+	    z-index: 1;
+	}
+        
+	.image.filtered.tinted:after {
+	    background-image: url("../../assets/images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25)), linear-gradient(0deg, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.125));
+	    background-size: 128px 128px, auto, auto;
+	}
+        
+        .image.tinted:after {
+            background-image: url("../../assets/images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+	    background-size: 128px 128px, auto, auto;
+            -moz-pointer-events: none;
+	    -webkit-pointer-events: none;
+	    -ms-pointer-events: none;
+	    pointer-events: none;
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    opacity: 1;
+	    z-index: 1;
+        }
+        
 		.image[data-position] img {
 			-moz-object-fit: cover;
 			-webkit-object-fit: cover;
